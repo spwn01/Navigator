@@ -1,0 +1,26 @@
+{
+  "name": "navigator",
+  "version": "0.0.1",
+  "description": "Navigator bot for Telegram",
+  "main": "./src/client/index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spwn01/Navigator.git#master"
+  },
+  "author": "spwn01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spwn01/Navigator/issues"
+  },
+  "homepage": "https://github.com/spwn01/Navigator/tree/master#readme",
+  "dependencies": {
+    "@yuva1422/telegram.js": "^1.0.5",
+    "dotenv": "^16.3.1",
+    "glob": "^10.3.10",
+    "nodemon": "^3.0.2"
+  }
+}
